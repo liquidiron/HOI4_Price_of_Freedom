@@ -1,0 +1,23 @@
+state= {
+	id=8152
+	name="STATE_8152"
+	manpower = 307514
+	
+	state_category = pastoral
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.8
+	provinces = { 10424 15582 15583 }
+	
+	history = {
+		owner = MJJ
+	
+		add_core_of = MJJ
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

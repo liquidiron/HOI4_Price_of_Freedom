@@ -1,0 +1,23 @@
+state= {
+	id=7674
+	name="STATE_7674"
+	manpower = 819354
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 7108 17762 17763 }
+	
+	history = {
+		owner = GEA
+	
+		add_core_of = GEA
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

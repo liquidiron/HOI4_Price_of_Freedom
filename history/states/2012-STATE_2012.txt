@@ -1,0 +1,23 @@
+state= {
+	id=2012
+	name="STATE_2012"
+	manpower = 140523
+	
+	state_category = rural
+	
+	local_supplies = 0.2
+	provinces = { 9919 15265 15266 }
+	
+	history = {
+		owner = BUL
+	
+		add_core_of = BUL
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

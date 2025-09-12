@@ -1,0 +1,31 @@
+state= {
+	id=8033
+	name="STATE_8033"
+	manpower = 4055882
+	
+	state_category = large_city
+	
+	local_supplies = 0.0
+	provinces = { 7014 }
+	
+	history = {
+		owner = GEA
+	
+		add_core_of = GEA
+	
+		victory_points = {7014 5}
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+		7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+	}
+        manpower=1
+        state_category = town
+}

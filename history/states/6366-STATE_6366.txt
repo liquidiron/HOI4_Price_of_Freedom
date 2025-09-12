@@ -1,0 +1,23 @@
+state= {
+	id=6366
+	name="STATE_6366"
+	manpower = 12879
+	
+	state_category = pastoral
+	
+	local_supplies = 0.0
+	provinces = { 8913 }
+	
+	history = {
+		owner = CHL
+	
+		add_core_of = CHL
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

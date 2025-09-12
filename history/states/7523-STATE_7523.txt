@@ -1,0 +1,28 @@
+state= {
+	id=7523
+	name="STATE_7523"
+	manpower = 31935
+	
+	state_category = pastoral
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 1.8
+	provinces = { 7477 }
+	
+	history = {
+		owner = SOV
+	
+		add_core_of = SOV
+		add_core_of = TMS
+	
+		buildings = {
+			infrastructure = 1
+		
+		7477 = {
+				naval_base = 1
+			}
+		}
+	}
+        manpower=1
+        state_category = town
+}

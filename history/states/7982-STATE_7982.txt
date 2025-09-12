@@ -1,0 +1,25 @@
+state= {
+	id=7982
+	name="STATE_7982"
+	manpower = 91171
+	
+	state_category = pastoral
+	
+	local_supplies = 0.0
+	provinces = { 3814 15555 }
+	
+	history = {
+		owner = FWL
+	
+		add_core_of = DIL
+		add_core_of = FWL
+		add_core_of = JWL
+	
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

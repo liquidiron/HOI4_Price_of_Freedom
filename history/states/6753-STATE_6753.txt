@@ -1,0 +1,23 @@
+state= {
+	id=6753
+	name="STATE_6753"
+	manpower = 203226
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 3852 15712 }
+	
+	history = {
+		owner = ROK
+	
+		add_core_of = ROK
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

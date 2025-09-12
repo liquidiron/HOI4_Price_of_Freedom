@@ -1,0 +1,26 @@
+state= {
+	id=3204
+	name="STATE_3204"
+	manpower = 7112
+	
+	state_category = rural
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	provinces = { 7397 16727 }
+	
+	history = {
+		owner = MJJ
+	
+		add_core_of = MJJ
+		add_core_of = DIL
+		add_core_of = JWL
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

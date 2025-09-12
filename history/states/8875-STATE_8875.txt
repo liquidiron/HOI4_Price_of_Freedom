@@ -1,0 +1,23 @@
+state= {
+	id=8875
+	name="STATE_8875"
+	manpower = 8395
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 10697 }
+	
+	history = {
+		owner = SAF
+	
+		add_core_of = SAF
+	
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

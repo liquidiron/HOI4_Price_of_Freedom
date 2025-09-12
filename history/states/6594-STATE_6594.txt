@@ -1,0 +1,30 @@
+state= {
+	id=6594
+	name="STATE_6594"
+	manpower = 14704
+	
+	state_category = town
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	provinces = { 7566 }
+	
+	history = {
+		owner = AST
+	
+		add_core_of = AST
+	
+		victory_points = {7566 1}
+		
+		buildings = {
+			infrastructure = 2
+		
+		7566 = {
+				naval_base = 1
+
+			}
+		}
+	}
+        manpower=1
+        state_category = town
+}

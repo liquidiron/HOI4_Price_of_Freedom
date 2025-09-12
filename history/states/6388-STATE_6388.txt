@@ -1,0 +1,24 @@
+state= {
+	id=6388
+	name="STATE_6388"
+	manpower = 682749
+	
+	state_category = metropolis
+	
+	local_supplies = 0.0
+	provinces = { 3512 }
+	
+	history = {
+		owner = GER
+	
+		add_core_of = GER
+	
+		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 4
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,24 @@
+state= {
+	id=9314
+	name="STATE_9314"
+	manpower = 59405
+	
+	state_category = pastoral
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.2
+	provinces = { 1918 17034 17035 17036 }
+	
+	history = {
+		owner = XKJ
+	
+		add_core_of = XKJ
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

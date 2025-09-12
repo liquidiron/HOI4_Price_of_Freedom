@@ -1,0 +1,28 @@
+state= {
+	id=3036
+	name="STATE_3036"
+	manpower = 68370
+	
+	state_category = enclave
+	
+	local_supplies = 0.0
+	provinces = { 10833 18327 18328 18329 }
+	
+	history = {
+		owner = ENG
+	
+		add_core_of = SOM
+	
+		victory_points = {10833 1}
+		
+		buildings = {
+			infrastructure = 1
+		
+		10833 = {
+				naval_base = 1
+			}
+		}
+	}
+        manpower=1
+        state_category = town
+}

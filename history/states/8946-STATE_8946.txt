@@ -1,0 +1,23 @@
+state= {
+	id=8946
+	name="STATE_8946"
+	manpower = 137706
+	
+	state_category = rural
+	
+	local_supplies = 0.6
+	provinces = { 13012 }
+	
+	history = {
+		owner = ENG
+	
+		add_core_of = TRI
+	
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,24 @@
+state= {
+	id=1000
+	name="STATE_1000"
+	manpower = 156193
+	
+	state_category = city
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.9
+	provinces = { 3861 }
+	
+	history = {
+		owner = POR
+	
+		add_core_of = POR
+	
+		buildings = {
+			infrastructure = 3
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

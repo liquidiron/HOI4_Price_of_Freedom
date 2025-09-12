@@ -1,0 +1,25 @@
+state= {
+	id=8103
+	name="STATE_8103"
+	manpower = 44131
+	
+	state_category = pastoral
+	
+	local_supplies = 0.0
+	provinces = { 1844 14783 14784 14785 }
+	
+	history = {
+		owner = XWL
+	
+		add_core_of = XWL
+		add_core_of = DIL
+		add_core_of = JWL
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

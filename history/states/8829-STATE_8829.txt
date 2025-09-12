@@ -1,0 +1,23 @@
+state= {
+	id=8829
+	name="STATE_8829"
+	manpower = 5
+	
+	state_category = wasteland
+	
+	local_supplies = 0.0
+	provinces = { 8030 }
+	
+	history = {
+		owner = SAU
+	
+		add_core_of = SAU
+	
+		buildings = {
+			infrastructure = 0
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,29 @@
+state= {
+	id=8247
+	name="STATE_8247"
+	manpower = 175995
+	
+	state_category = town
+	
+	local_supplies = 1.1
+	provinces = { 11372 13910 }
+	
+	history = {
+		owner = GER
+	
+		add_core_of = GER
+		add_core_of = KSH
+	
+		victory_points = {11372 3}
+		
+		buildings = {
+			infrastructure = 4
+		
+		11372 = {
+				naval_base = 1
+			}
+		}
+	}
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,24 @@
+state= {
+	id=9494
+	name="STATE_9494"
+	manpower = 1881
+	
+	state_category = wasteland
+	
+	impassable = yes
+	local_supplies = 0.0
+	provinces = { 7943 }
+	
+	history = {
+		owner = FRA
+	
+		add_core_of = MRT
+	
+		buildings = {
+			infrastructure = 0
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

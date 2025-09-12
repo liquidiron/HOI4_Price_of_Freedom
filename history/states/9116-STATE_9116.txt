@@ -1,0 +1,23 @@
+state= {
+	id=9116
+	name="STATE_9116"
+	manpower = 59334
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 8241 }
+	
+	history = {
+		owner = NZL
+	
+		add_core_of = NZL
+	
+		buildings = {
+			infrastructure = 3
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

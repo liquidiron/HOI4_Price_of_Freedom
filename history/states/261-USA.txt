@@ -1,0 +1,38 @@
+state= {
+	id=261
+	name="STATE_261"
+	manpower = 1238514
+	
+	state_category = metropolis
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 3.3
+	provinces = { 6890 }
+	
+
+	
+	resources= { 
+		steel=28 
+		aluminium=9 
+		}
+	
+	history = {
+		owner = USA
+	
+		add_core_of = USA
+	
+		victory_points = {6890 10}
+		
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 6
+		
+		6890 = {
+				naval_base = 2
+			}
+		}
+	}
+        manpower=1
+        state_category = town
+}

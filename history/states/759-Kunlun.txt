@@ -1,0 +1,26 @@
+state= {
+	id=759
+	name="STATE_759"
+	manpower = 17073
+	
+	state_category = wasteland
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	provinces = { 1698 15805 15806 15807 }
+	
+	history = {
+		owner = XWL
+	
+		add_core_of = XWL
+		add_core_of = DIL
+		add_core_of = JWL
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

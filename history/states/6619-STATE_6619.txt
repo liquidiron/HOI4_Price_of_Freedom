@@ -1,0 +1,24 @@
+state= {
+	id=6619
+	name="STATE_6619"
+	manpower = 14704
+	
+	state_category = town
+	
+	impassable = yes
+	local_supplies = 0.0
+	provinces = { 12949 }
+	
+	history = {
+		owner = AST
+	
+		add_core_of = AST
+	
+		buildings = {
+			infrastructure = 3
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

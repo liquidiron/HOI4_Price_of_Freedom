@@ -1,0 +1,25 @@
+state= {
+	id=9017
+	name="STATE_9017"
+	manpower = 140129
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 10429 14960 14961 }
+	
+	history = {
+		owner = FWL
+	
+		add_core_of = DIL
+		add_core_of = FWL
+		add_core_of = JWL
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

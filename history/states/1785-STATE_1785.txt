@@ -1,0 +1,23 @@
+state= {
+	id=1785
+	name="STATE_1785"
+	manpower = 49736
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 4078 16209 }
+	
+	history = {
+		owner = GRE
+	
+		add_core_of = GRE
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

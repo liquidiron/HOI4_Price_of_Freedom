@@ -1,0 +1,86 @@
+spriteTypes = {	    
+    
+    
+    
+    SpriteType = { 
+		name = "GFX_DIL_new_year"
+		texturefile = "gfx/interface/goals/GFX_DIL_new_year.png"
+	}
+    SpriteType = { 
+		name = "GFX_DIL_Convene_the_National_Assembly"
+		texturefile = "gfx/interface/goals/GFX_DIL_Convene_the_National_Assembly.png"
+	}
+    SpriteType = { 
+		name = "DIL_Shanhaiguan_military_exercise"
+		texturefile = "gfx/interface/goals/GFX_DIL_Shanhaiguan_military_exercise.dds"
+	}
+    SpriteType = { 
+		name = "GFX_DIL_Placate_the_Senate"
+		texturefile = "gfx/interface/goals/GFX_DIL_Placate_the_Senate.png"
+	}
+    SpriteType = { 
+		name = "GFX_DIL_Meet_the_ambassador"
+		texturefile = "gfx/interface/goals/GFX_DIL_Meet_the_ambassador.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_Restore_the_industrial_system"
+		texturefile = "gfx/interface/goals/GFX_DIL_Restore_the_industrial_system.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_Invite_technicians"
+		texturefile = "gfx/interface/goals/GFX_DIL_Invite_technicians.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_Renovate_industrial_facilities"
+		texturefile = "gfx/interface/goals/GFX_DIL_Renovate_industrial_facilities.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_Exploration_of_northern_oil"
+		texturefile = "gfx/interface/goals/GFX_DIL_Exploration_of_northern_oil.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_Electrification_of_coastal_areas"
+		texturefile = "gfx/interface/goals/GFX_DIL_Electrification_of_coastal_areas.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_completely_new_industry"
+		texturefile = "gfx/interface/goals/GFX_DIL_completely_new_industry.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_Three_year_plan"
+		texturefile = "gfx/interface/goals/GFX_DIL_Three_year_plan.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_Arms_reorganization"
+		texturefile = "gfx/interface/goals/GFX_DIL_Arms_reorganization.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_Invite_German_consultants"
+		texturefile = "gfx/interface/goals/GFX_DIL_Invite_German_consultants.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_Military_reorganization_plan"
+		texturefile = "gfx/interface/goals/GFX_DIL_Military_reorganization_plan.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_The_tools_are_excellent"
+		texturefile = "gfx/interface/goals/GFX_DIL_The_tools_are_excellent.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_Recruit_freshmen_for_military_academies"
+		texturefile = "gfx/interface/goals/GFX_DIL_Recruit_freshmen_for_military_academies.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_Dominate_the_sky"
+		texturefile = "gfx/interface/goals/GFX_DIL_Dominate_the_sky.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_The_birth_of_the_modern_army"
+		texturefile = "gfx/interface/goals/GFX_DIL_The_birth_of_the_modern_army.dds"
+	}
+	SpriteType = { 
+		name = "GFX_DIL_Over"
+		texturefile = "gfx/interface/goals/GFX_DIL_Over.dds"
+	}
+
+}

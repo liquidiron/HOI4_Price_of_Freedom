@@ -1,0 +1,23 @@
+state= {
+	id=1209
+	name="STATE_1209"
+	manpower = 63089
+	
+	state_category = city
+	
+	local_supplies = 0.0
+	provinces = { 3286 13723 }
+	
+	history = {
+		owner = SWE
+	
+		add_core_of = SWE
+	
+		buildings = {
+			infrastructure = 3
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

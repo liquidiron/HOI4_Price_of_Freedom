@@ -1,0 +1,25 @@
+state= {
+	id=8066
+	name="STATE_8066"
+	manpower = 351545
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 4174 16182 16183 16184 }
+	
+	history = {
+		owner = JWL
+	
+		add_core_of = JWL
+		add_core_of = DIL
+		add_core_of = JWL
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

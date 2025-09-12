@@ -1,0 +1,23 @@
+state= {
+	id=7041
+	name="STATE_7041"
+	manpower = 152176
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 2003 17976 17977 17978 }
+	
+	history = {
+		owner = ENG
+	
+		add_core_of = SUD
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

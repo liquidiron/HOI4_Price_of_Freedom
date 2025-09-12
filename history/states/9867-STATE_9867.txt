@@ -1,0 +1,26 @@
+state= {
+	id=9867
+	name="STATE_9867"
+	manpower = 160556
+	
+	state_category = large_city
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.4
+	provinces = { 9494 14246 14247 }
+	
+	history = {
+		owner = POL
+	
+		add_core_of = POL
+	
+		victory_points = {9494 1}
+		
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

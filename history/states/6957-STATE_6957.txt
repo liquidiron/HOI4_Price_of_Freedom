@@ -1,0 +1,23 @@
+state= {
+	id=6957
+	name="STATE_6957"
+	manpower = 237980
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 12935 18538 18539 }
+	
+	history = {
+		owner = POR
+	
+		add_core_of = MZB
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

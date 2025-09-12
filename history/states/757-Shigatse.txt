@@ -1,0 +1,28 @@
+state= {
+	id=757
+	name="STATE_757"
+	manpower = 22222
+	
+	state_category = rural
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	provinces = { 5033 }
+	
+	history = {
+		owner = TBK
+	
+		add_core_of = TBK
+	
+		victory_points = {5033 5}
+		
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

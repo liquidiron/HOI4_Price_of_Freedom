@@ -1,0 +1,24 @@
+state= {
+	id=7903
+	name="STATE_7903"
+	manpower = 1765443
+	
+	state_category = large_town
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	provinces = { 2091 16933 16934 }
+	
+	history = {
+		owner = CWL
+	
+		add_core_of = CWL
+	
+		buildings = {
+			infrastructure = 3
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

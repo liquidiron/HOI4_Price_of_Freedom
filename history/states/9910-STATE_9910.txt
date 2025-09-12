@@ -1,0 +1,24 @@
+state= {
+	id=9910
+	name="STATE_9910"
+	manpower = 273844
+	
+	state_category = town
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 1.0
+	provinces = { 9452 14154 }
+	
+	history = {
+		owner = POL
+	
+		add_core_of = POL
+	
+		buildings = {
+			infrastructure = 3
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

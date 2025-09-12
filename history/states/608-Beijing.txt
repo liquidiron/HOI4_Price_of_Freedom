@@ -1,0 +1,27 @@
+state= {
+	id=608
+	name="STATE_608"
+	manpower = 3046863
+	
+	state_category = large_city
+	
+	local_supplies = 0.5
+	provinces = { 9843 }
+	
+	history = {
+		owner = DIL
+	
+		add_core_of = DIL
+	
+		victory_points = {9843 20}
+		
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			industrial_complex = 2
+		
+		}
+	}
+        manpower=5000
+        state_category = city
+}

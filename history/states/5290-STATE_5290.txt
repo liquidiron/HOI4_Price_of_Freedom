@@ -1,0 +1,23 @@
+state= {
+	id=5290
+	name="STATE_5290"
+	manpower = 5651
+	
+	state_category = wasteland
+	
+	local_supplies = 0.0
+	provinces = { 12809 17043 }
+	
+	history = {
+		owner = PER
+	
+		add_core_of = PER
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

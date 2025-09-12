@@ -1,0 +1,23 @@
+state= {
+	id=6378
+	name="STATE_6378"
+	manpower = 64021
+	
+	state_category = town
+	
+	local_supplies = 0.5
+	provinces = { 8169 }
+	
+	history = {
+		owner = ARG
+	
+		add_core_of = ARG
+	
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

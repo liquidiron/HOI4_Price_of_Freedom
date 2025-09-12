@@ -1,0 +1,23 @@
+state= {
+	id=8930
+	name="STATE_8930"
+	manpower = 268750
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 12477 }
+	
+	history = {
+		owner = ENG
+	
+		add_core_of = JAM
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

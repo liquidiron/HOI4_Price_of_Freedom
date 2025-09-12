@@ -1,0 +1,25 @@
+state= {
+	id=7970
+	name="STATE_7970"
+	manpower = 2133333
+	
+	state_category = city
+	
+	local_supplies = 0.0
+	provinces = { 3900 15779 }
+	
+	history = {
+		owner = DIL
+	
+		add_core_of = DIL
+	
+		buildings = {
+			infrastructure = 4
+		
+		3900 = {
+				naval_base = 2
+			}
+		}
+	}
+        manpower=5000
+}

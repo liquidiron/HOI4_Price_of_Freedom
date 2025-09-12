@@ -1,0 +1,26 @@
+state= {
+	id=9267
+	name="STATE_9267"
+	manpower = 90909
+	
+	state_category = pastoral
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	provinces = { 5009 17739 17740 17741 }
+	
+	history = {
+		owner = DWL
+	
+		add_core_of = DWL
+		add_core_of = DIL
+		add_core_of = JWL
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

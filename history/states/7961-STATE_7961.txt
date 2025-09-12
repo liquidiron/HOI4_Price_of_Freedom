@@ -1,0 +1,24 @@
+state= {
+	id=7961
+	name="STATE_7961"
+	manpower = 914058
+	
+	state_category = large_city
+	
+	local_supplies = 0.0
+	provinces = { 4137 15980 }
+	
+	history = {
+		owner = DIL
+	
+		add_core_of = DIL
+		add_core_of = JWL
+	
+		buildings = {
+			infrastructure = 3
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

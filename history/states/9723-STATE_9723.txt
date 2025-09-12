@@ -1,0 +1,24 @@
+state= {
+	id=9723
+	name="STATE_9723"
+	manpower = 7155
+	
+	state_category = pastoral
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	provinces = { 10578 }
+	
+	history = {
+		owner = BKD
+	
+		add_core_of = BKD
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,30 @@
+state= {
+	id=8161
+	name="STATE_8161"
+	manpower = 1331344
+	
+	state_category = city
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	provinces = { 5007 16626 16627 }
+	
+	history = {
+		owner = JWL
+	
+		add_core_of = JWL
+		add_core_of = DIL
+		add_core_of = JWL
+	
+		buildings = {
+			infrastructure = 1
+		
+		5007 = {
+				bunker = 2
+
+			}
+		}
+	}
+        manpower=1
+        state_category = town
+}

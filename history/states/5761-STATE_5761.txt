@@ -1,0 +1,23 @@
+state= {
+	id=5761
+	name="STATE_5761"
+	manpower = 4701
+	
+	state_category = wasteland
+	
+	local_supplies = 1.0
+	provinces = { 12073 17246 17247 17248 }
+	
+	history = {
+		owner = ENG
+	
+		add_core_of = EGY
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

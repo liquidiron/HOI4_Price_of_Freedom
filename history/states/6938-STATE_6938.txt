@@ -1,0 +1,26 @@
+state= {
+	id=6938
+	name="STATE_6938"
+	manpower = 613213
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 5222 18502 18503 }
+	
+	history = {
+		owner = FRA
+	
+		add_core_of = MAD
+	
+		buildings = {
+			infrastructure = 1
+		
+		5222 = {
+				naval_base = 1
+			}
+		}
+	}
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,28 @@
+state= {
+	id=9195
+	name="STATE_9195"
+	manpower = 32918
+	
+	state_category = rural
+	
+	buildings_max_level_factor = 1
+	local_supplies = 0.0
+	provinces = { 4352 }
+	
+	history = {
+		owner = AST
+	
+		add_core_of = PNG
+	
+		buildings = {
+			infrastructure = 1
+		
+		4352 = {
+				naval_base = 1
+
+			}
+		}
+	}
+        manpower=1
+        state_category = town
+}

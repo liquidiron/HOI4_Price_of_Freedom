@@ -1,0 +1,25 @@
+state= {
+	id=9251
+	name="STATE_9251"
+	manpower = 782608
+	
+	state_category = rural
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	provinces = { 4256 16822 16823 }
+	
+	history = {
+		owner = DIL
+	
+		add_core_of = JWL
+		add_core_of = DIL
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

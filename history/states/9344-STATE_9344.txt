@@ -1,0 +1,26 @@
+state= {
+	id=9344
+	name="STATE_9344"
+	manpower = 156250
+	
+	state_category = wasteland
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	provinces = { 5076 15774 15775 15776 }
+	
+	history = {
+		owner = MJJ
+	
+		add_core_of = MJJ
+		add_core_of = DIL
+		add_core_of = JWL
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

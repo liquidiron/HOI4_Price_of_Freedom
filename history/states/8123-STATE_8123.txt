@@ -1,0 +1,23 @@
+state= {
+	id=8123
+	name="STATE_8123"
+	manpower = 158877
+	
+	state_category = rural
+	
+	local_supplies = 0.3
+	provinces = { 349 }
+	
+	history = {
+		owner = GER
+	
+		add_core_of = GER
+	
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,23 @@
+state= {
+	id=7885
+	name="STATE_7885"
+	manpower = 942900
+	
+	state_category = town
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.4
+	provinces = { 4532 17535 }
+	
+	history = {
+		owner = QWL
+		add_core_of = QWL
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

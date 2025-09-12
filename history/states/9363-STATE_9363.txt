@@ -1,0 +1,24 @@
+state= {
+	id=9363
+	name="STATE_9363"
+	manpower = 40000
+	
+	state_category = pastoral
+	
+	impassable = yes
+	local_supplies = 0.0
+	provinces = { 12801 }
+	
+	history = {
+		owner = TBK
+	
+		add_core_of = TBK
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

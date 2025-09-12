@@ -1,0 +1,29 @@
+state= {
+	id=604
+	name="STATE_604"
+	manpower = 543681
+	
+	state_category = rural
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.9
+	provinces = { 7940 16420 16421 16422 }
+	
+	history = {
+		owner = MJJ
+	
+		add_core_of = MJJ
+		add_core_of = DIL
+		add_core_of = JWL
+	
+		victory_points = {7940 10}
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,25 @@
+state= {
+	id=9613
+	name="STATE_9613"
+	manpower = 109440
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 11845 15210 }
+	
+	history = {
+		owner = YUG
+	
+		add_core_of = YUG
+		add_core_of = BOS
+		add_core_of = HRZ
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

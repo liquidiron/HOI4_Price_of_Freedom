@@ -1,0 +1,24 @@
+state= {
+	id=7861
+	name="STATE_7861"
+	manpower = 4383
+	
+	state_category = wasteland
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	provinces = { 10741 17188 }
+	
+	history = {
+		owner = TBK
+	
+		add_core_of = TBK
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

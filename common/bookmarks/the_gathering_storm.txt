@@ -1,0 +1,27 @@
+bookmarks = {
+	bookmark = {
+		name = "PRICE_OF_FREEDOM_NAME"
+		desc = "PRICE_OF_FREEDOM_DESC"
+		date = 1951.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "DIL"
+		default = yes
+		
+		
+		DIL = {
+			history = "DIL_PRICE_OF_FREEDOM_DESC"
+			ideology = authoritarian_democracy
+			ideas = {
+				DIL_shadow_of_rev
+				DIL_office_and_par_close
+			}
+			focuses = {
+				DIL_new_year
+				DIL_Convene_the_National_Assembly
+				DIL_Placate_the_Senate
+			}
+		}
+
+		
+	}
+}

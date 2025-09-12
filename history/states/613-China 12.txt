@@ -1,0 +1,27 @@
+state= {
+	id=613
+	name="STATE_613"
+	manpower = 4055882
+	
+	state_category = large_city
+	
+	local_supplies = 0.0
+	provinces = { 11913 13142 }
+	
+	history = {
+		owner = DIL
+	
+		add_core_of = DIL
+		add_core_of = JWL
+	
+		victory_points = {11913 20}
+		
+		buildings = {
+			infrastructure = 4
+			air_base = 6
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,23 @@
+state= {
+	id=6984
+	name="STATE_6984"
+	manpower = 171746
+	
+	state_category = rural
+	
+	local_supplies = 0.2
+	provinces = { 5160 18432 18433 18434 }
+	
+	history = {
+		owner = ENG
+	
+		add_core_of = KEN
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

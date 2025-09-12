@@ -1,0 +1,25 @@
+state= {
+	id=8234
+	name="STATE_8234"
+	manpower = 36833
+	
+	state_category = town
+	
+	local_supplies = 0.0
+	provinces = { 12021 }
+	
+	history = {
+		owner = USA
+	
+		add_core_of = HAW
+	
+		victory_points = {12021 3}
+		
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

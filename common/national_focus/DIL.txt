@@ -1,0 +1,343 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_POLITICAL_CHARACTER}
+### search_filters = {FOCUS_FILTER_MILITARY_CHARACTER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+
+focus_tree = {
+    id = DIL
+    default = no
+    continuous_focus_position = { x = 50 y = 1500 }
+    shared_focus = DIL_new_year
+}
+
+# 岁值辛卯：
+shared_focus = {
+    id = DIL_new_year
+    icon = GFX_DIL_new_year
+    x = 0
+    y = 0
+    cost = 0.143
+    completion_reward = {
+        country_event = {
+            id = beiyang.1
+            days = 1
+        }
+    }
+}
+
+# 民国四十年国会：
+shared_focus = {
+    id = DIL_Convene_the_National_Assembly
+    icon = GFX_DIL_Convene_the_National_Assembly
+    relative_position_id = DIL_new_year
+    x = 0
+    y = 2
+    cost = 4.000
+    prerequisite = { # 前置组 1
+        focus = DIL_new_year
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Convene_the_National_Assembly"
+    }
+}
+
+# 敲定山海关1951军演：
+shared_focus = {
+    id = DIL_Shanhaiguan_military_exercise
+    icon = GFX_DIL_Shanhaiguan_military_exercise
+    relative_position_id = DIL_new_year
+    x = 0
+    y = 4
+    cost = 2.000
+    prerequisite = { # 前置组 2
+        focus = DIL_Convene_the_National_Assembly
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Shanhaiguan_military_exercise"
+    }
+}
+
+# 安抚参议院：
+shared_focus = {
+    id = DIL_Placate_the_Senate
+    icon = GFX_DIL_Placate_the_Senate
+    relative_position_id = DIL_new_year
+    x = 0
+    y = 6
+    cost = 2.000
+    prerequisite = { # 前置组 5
+        focus = DIL_Shanhaiguan_military_exercise
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Placate_the_Senate"
+    }
+}
+
+# 与德国大使会面：
+shared_focus = {
+    id = DIL_Meet_the_ambassador
+    icon = GFX_DIL_Meet_the_ambassador
+    relative_position_id = DIL_new_year
+    x = 0
+    y = 8
+    cost = 2.000
+    prerequisite = { # 前置组 7
+        focus = DIL_Placate_the_Senate
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Meet_the_ambassador"
+    }
+}
+
+# 工业恢复计划：
+shared_focus = {
+    id = DIL_Restore_the_industrial_system
+    icon = GFX_DIL_Restore_the_industrial_system
+    relative_position_id = DIL_new_year
+    x = 6
+    y = 3
+    cost = 1.000
+    prerequisite = { # 前置组 20
+        focus = DIL_Three_year_plan
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Restore_the_industrial_system"
+    }
+}
+
+# 邀请德国技师：
+shared_focus = {
+    id = DIL_Invite_technicians
+    icon = GFX_DIL_Invite_technicians
+    relative_position_id = DIL_new_year
+    x = 4
+    y = 5
+    cost = 4.000
+    prerequisite = { # 前置组 13
+        focus = DIL_Restore_the_industrial_system
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Invite_technicians"
+    }
+}
+
+# 翻新晚清遗留设施：
+shared_focus = {
+    id = DIL_Renovate_industrial_facilities
+    icon = GFX_DIL_Renovate_industrial_facilities
+    relative_position_id = DIL_new_year
+    x = 4
+    y = 6
+    cost = 6.000
+    prerequisite = { # 前置组 17
+        focus = DIL_Invite_technicians
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Renovate_industrial_facilities"
+    }
+}
+
+# 勘探华北石油储备：
+shared_focus = {
+    id = DIL_Exploration_of_northern_oil
+    icon = GFX_DIL_Exploration_of_northern_oil
+    relative_position_id = DIL_new_year
+    x = 8
+    y = 5
+    cost = 4.000
+    prerequisite = { # 前置组 14
+        focus = DIL_Restore_the_industrial_system
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Exploration_of_northern_oil"
+    }
+}
+
+# 沿海地区电气化：
+shared_focus = {
+    id = DIL_Electrification_of_coastal_areas
+    icon = GFX_DIL_Electrification_of_coastal_areas
+    relative_position_id = DIL_new_year
+    x = 8
+    y = 6
+    cost = 6.000
+    prerequisite = { # 前置组 18
+        focus = DIL_Exploration_of_northern_oil
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Electrification_of_coastal_areas"
+    }
+}
+
+# 焕然一新的工业：
+shared_focus = {
+    id = DIL_completely_new_industry
+    icon = GFX_DIL_completely_new_industry
+    relative_position_id = DIL_new_year
+    x = 6
+    y = 8
+    cost = 2.000
+    prerequisite = { # 前置组 19
+        focus = DIL_Electrification_of_coastal_areas
+        focus = DIL_Renovate_industrial_facilities
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_completely_new_industry"
+    }
+}
+
+# “三年建设”计划：
+shared_focus = {
+    id = DIL_Three_year_plan
+    icon = GFX_DIL_Three_year_plan
+    relative_position_id = DIL_new_year
+    x = 10
+    y = 2
+    cost = 1.000
+    prerequisite = { # 前置组 32
+        focus = DIL_Convene_the_National_Assembly
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Three_year_plan"
+    }
+}
+
+# 军备重整：
+shared_focus = {
+    id = DIL_Arms_reorganization
+    icon = GFX_DIL_Arms_reorganization
+    relative_position_id = DIL_new_year
+    x = 14
+    y = 3
+    cost = 1.000
+    prerequisite = { # 前置组 22
+        focus = DIL_Three_year_plan
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Arms_reorganization"
+    }
+}
+
+# 扩大德国顾问团：
+shared_focus = {
+    id = DIL_Invite_German_consultants
+    icon = GFX_DIL_Invite_German_consultants
+    relative_position_id = DIL_new_year
+    x = 11
+    y = 5
+    cost = 4.000
+    prerequisite = { # 前置组 25
+        focus = DIL_Arms_reorganization
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Invite_German_consultants"
+    }
+}
+
+# 六十师整编计划：
+shared_focus = {
+    id = DIL_Military_reorganization_plan
+    icon = GFX_DIL_Military_reorganization_plan
+    relative_position_id = DIL_new_year
+    x = 14
+    y = 6
+    cost = 6.000
+    prerequisite = { # 前置组 23
+        focus = DIL_Arms_reorganization
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Military_reorganization_plan"
+    }
+}
+
+# 欲善其事，先利其器：
+shared_focus = {
+    id = DIL_The_tools_are_excellent
+    icon = GFX_DIL_The_tools_are_excellent
+    relative_position_id = DIL_new_year
+    x = 17
+    y = 5
+    cost = 4.000
+    prerequisite = { # 前置组 24
+        focus = DIL_Arms_reorganization
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_The_tools_are_excellent"
+    }
+}
+
+# 招收保定军校新生：
+shared_focus = {
+    id = DIL_Recruit_freshmen_for_military_academies
+    icon = GFX_DIL_Recruit_freshmen_for_military_academies
+    relative_position_id = DIL_new_year
+    x = 11
+    y = 6
+    cost = 2.000
+    prerequisite = { # 前置组 26
+        focus = DIL_Invite_German_consultants
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Recruit_freshmen_for_military_academies"
+    }
+}
+
+# 制霸天空：
+shared_focus = {
+    id = DIL_Dominate_the_sky
+    icon = GFX_DIL_Dominate_the_sky
+    relative_position_id = DIL_new_year
+    x = 17
+    y = 6
+    cost = 4.000
+    prerequisite = { # 前置组 27
+        focus = DIL_The_tools_are_excellent
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Dominate_the_sky"
+    }
+}
+
+# 现代中国军队之诞：
+shared_focus = {
+    id = DIL_The_birth_of_the_modern_army
+    icon = GFX_DIL_The_birth_of_the_modern_army
+    relative_position_id = DIL_new_year
+    x = 14
+    y = 8
+    cost = 1.000
+    prerequisite = { # 前置组 30
+        focus = DIL_Recruit_freshmen_for_military_academies
+        focus = DIL_Military_reorganization_plan
+        focus = DIL_Dominate_the_sky
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_The_birth_of_the_modern_army"
+    }
+}
+
+# 告一段落：
+shared_focus = {
+    id = DIL_Over
+    icon = GFX_DIL_Over
+    relative_position_id = DIL_new_year
+    x = 7
+    y = 10
+    cost = 1.000
+    prerequisite = { # 前置组 31
+        focus = DIL_Meet_the_ambassador
+        focus = DIL_completely_new_industry
+        focus = DIL_The_birth_of_the_modern_army
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus DIL_Over"
+    }
+}
+

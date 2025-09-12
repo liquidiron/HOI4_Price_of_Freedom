@@ -1,0 +1,15 @@
+add_namespace = beiyang
+
+
+country_event = {
+	id = beiyang.1
+	title = beiyang.1.t
+	desc = beiyang.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = beiyang.1.a
+    }
+}

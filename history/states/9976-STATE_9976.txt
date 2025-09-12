@@ -1,0 +1,23 @@
+state= {
+	id=9976
+	name="STATE_9976"
+	manpower = 66889
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 3341 13803 }
+	
+	history = {
+		owner = DEN
+	
+		add_core_of = DEN
+	
+		buildings = {
+			infrastructure = 3
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

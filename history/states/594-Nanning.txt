@@ -1,0 +1,36 @@
+state= {
+	id=594
+	name="STATE_594"
+	manpower = 1212962
+	
+	state_category = town
+	
+	local_supplies = 0.6
+	provinces = { 7137 }
+	
+
+	
+	resources= { 
+		tungsten=11 
+		steel = 8 
+		chromium = 3 
+		}
+	
+	history = {
+		owner = YWL
+	
+		add_core_of = YWL
+		add_core_of = DIL
+		add_core_of = JWL
+	
+		victory_points = {7137 10}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

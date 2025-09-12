@@ -1,0 +1,23 @@
+state= {
+	id=9601
+	name="STATE_9601"
+	manpower = 162504
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 3819 15238 }
+	
+	history = {
+		owner = BUL
+	
+		add_core_of = BUL
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

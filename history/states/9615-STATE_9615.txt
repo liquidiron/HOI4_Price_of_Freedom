@@ -1,0 +1,23 @@
+state= {
+	id=9615
+	name="STATE_9615"
+	manpower = 43700
+	
+	state_category = pastoral
+	
+	local_supplies = 0.0
+	provinces = { 13235 }
+	
+	history = {
+		owner = ALB
+	
+		add_core_of = ALB
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

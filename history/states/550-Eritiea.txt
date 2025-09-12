@@ -1,0 +1,29 @@
+state= {
+	id=550
+	name="STATE_550"
+	manpower = 178838
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 12766 18103 18104 18105 }
+	
+	history = {
+		owner = ITA
+	
+		add_core_of = ERI
+	
+		victory_points = {12766 1}
+		
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+		
+		12766 = {
+				naval_base = 3
+			}
+		}
+	}
+        manpower=1
+        state_category = town
+}

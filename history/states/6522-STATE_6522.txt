@@ -1,0 +1,23 @@
+state= {
+	id=6522
+	name="STATE_6522"
+	manpower = 6998
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 5211 }
+	
+	history = {
+		owner = AST
+	
+		add_core_of = AST
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,39 @@
+state= {
+	id=393
+	name="STATE_393"
+	manpower = 1808336
+	
+	state_category = metropolis
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	provinces = { 6710 }
+	
+
+	
+	resources= { 
+		steel=60 
+		oil=6 
+		}
+	
+	history = {
+		owner = USA
+	
+		add_core_of = USA
+	
+		victory_points = {6710 20}
+		
+		buildings = {
+			infrastructure = 5
+			air_base = 4
+			arms_factory = 1
+			industrial_complex = 6
+		
+		6710 = {
+				naval_base = 3
+			}
+		}
+	}
+        manpower=1
+        state_category = town
+}

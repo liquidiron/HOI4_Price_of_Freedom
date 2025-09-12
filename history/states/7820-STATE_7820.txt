@@ -1,0 +1,25 @@
+state= {
+	id=7820
+	name="STATE_7820"
+	manpower = 217451
+	
+	state_category = metropolis
+	
+	local_supplies = 0.0
+	provinces = { 13068 }
+	
+	history = {
+		owner = BEL
+	
+		add_core_of = BEL
+	
+		victory_points = {13068 1}
+		
+		buildings = {
+			infrastructure = 3
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

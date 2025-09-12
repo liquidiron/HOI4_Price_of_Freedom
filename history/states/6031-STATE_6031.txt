@@ -1,0 +1,23 @@
+state= {
+	id=6031
+	name="STATE_6031"
+	manpower = 17017
+	
+	state_category = rural
+	
+	local_supplies = 0.1
+	provinces = { 4413 }
+	
+	history = {
+		owner = CAN
+	
+		add_core_of = CAN
+	
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,23 @@
+state= {
+	id=7015
+	name="STATE_7015"
+	manpower = 113670
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 10857 18337 18338 }
+	
+	history = {
+		owner = ENG
+	
+		add_core_of = SUD
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,24 @@
+state= {
+	id=5762
+	name="STATE_5762"
+	manpower = 2563
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 1015 17160 }
+	
+	history = {
+		owner = ENG
+	
+		add_core_of = PAL
+		add_core_of = ISR
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

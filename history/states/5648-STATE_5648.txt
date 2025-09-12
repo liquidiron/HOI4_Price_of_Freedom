@@ -1,0 +1,23 @@
+state= {
+	id=5648
+	name="STATE_5648"
+	manpower = 85476
+	
+	state_category = rural
+	
+	local_supplies = 0.3
+	provinces = { 9780 15373 15374 }
+	
+	history = {
+		owner = ALB
+	
+		add_core_of = ALB
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

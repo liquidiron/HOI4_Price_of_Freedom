@@ -1,0 +1,23 @@
+state= {
+	id=3014
+	name="STATE_3014"
+	manpower = 469943
+	
+	state_category = rural
+	
+	local_supplies = 0.0
+	provinces = { 10768 16442 16443 16444 }
+	
+	history = {
+		owner = PER
+	
+		add_core_of = PER
+	
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

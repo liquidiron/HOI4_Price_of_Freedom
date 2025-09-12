@@ -1,0 +1,26 @@
+state= {
+	id=9106
+	name="STATE_9106"
+	manpower = 1610
+	
+	state_category = enclave
+	
+	local_supplies = 0.0
+	provinces = { 9140 }
+	
+	history = {
+		owner = FIN
+	
+		add_core_of = FIN
+	
+		buildings = {
+			infrastructure = 3
+		
+		9140 = {
+				naval_base = 1
+			}
+		}
+	}
+        manpower=1
+        state_category = town
+}

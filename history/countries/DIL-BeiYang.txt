@@ -1,0 +1,27 @@
+capital = 608
+
+create_faction = Republic_of_china
+add_to_faction = JWL
+add_to_faction = QWL
+add_to_faction = MJJ
+add_to_faction = XWL
+add_to_faction = YWL
+add_to_faction = TBK
+add_to_faction = XKJ
+add_to_faction = FWL
+add_to_faction = DWL
+add_to_faction = CWL
+
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1951.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	authoritarian_democracy = 55
+	conservatism = 24
+	liberalism = 11
+	progressivism = 10
+}

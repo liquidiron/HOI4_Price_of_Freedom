@@ -1,0 +1,25 @@
+state= {
+	id=2021
+	name="STATE_2021"
+	manpower = 157820
+	
+	state_category = large_town
+	
+	local_supplies = 0.4
+	provinces = { 9862 15407 15408 }
+	
+	history = {
+		owner = BUL
+	
+		add_core_of = BUL
+	
+		victory_points = {9862 1}
+		
+		buildings = {
+			infrastructure = 1
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,29 @@
+state= {
+	id=615
+	name="STATE_615"
+	manpower = 351545
+	
+	state_category = town
+	
+	local_supplies = 0.0
+	provinces = { 1519 16293 16294 16295 }
+	
+	history = {
+		owner = JWL
+	
+		add_core_of = JWL
+		add_core_of = DIL
+		add_core_of = JWL
+	
+		victory_points = {1519 3}
+		
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 2
+		
+		}
+	}
+        manpower=1
+        state_category = town
+}
