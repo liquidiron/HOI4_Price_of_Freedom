@@ -1,0 +1,19 @@
+characters = {
+
+
+    ROT_emergency_committee = {
+		name = ROT_emergency_committee
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ROT_emergency_committee
+			}
+		}
+		country_leader = {
+			ideology = symbolic_democratic
+			traits = {  }
+			expire = "1975.1.1.1"
+			id = -1
+		}
+		allow_random = no
+	}
+}

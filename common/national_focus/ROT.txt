@@ -1,0 +1,105 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_POLITICAL_CHARACTER}
+### search_filters = {FOCUS_FILTER_MILITARY_CHARACTER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+
+focus_tree = {
+    id = ROT
+    default = no
+    focus = ROT_focus_food_crisis
+    continuous_focus_position = { x = 50 y = 1500 }
+}
+country = {
+    factor = 0
+    
+    modifier = {
+        add = 10
+        tag = ROT
+    }
+}
+
+# 粮食危机：
+focus = {
+    id = ROT_focus_food_crisis
+    icon = GFX_ROT_focus_food_crisis
+    x = 0
+    y = 0
+    cost = 0.143
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROT_focus_food_crisis"
+    }
+}
+
+# 实行临时配给制度：
+focus = {
+    id = ROT_focus_temporary_allocation_system
+    icon = GFX_ROT_focus_temporary_allocation_system
+    relative_position_id = ROT_focus_food_crisis
+    x = -3
+    y = 2
+    cost = 1.429
+    prerequisite = { # 前置组 3
+        focus = ROT_focus_food_crisis
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROT_focus_temporary_allocation_system"
+    }
+}
+
+# 发放军事物资：
+focus = {
+    id = ROT_focus_distribute_military_supplies
+    icon = GFX_ROT_focus_distribute_military_supplies
+    relative_position_id = ROT_focus_food_crisis
+    x = 0
+    y = 2
+    cost = 1.429
+    prerequisite = { # 前置组 1
+        focus = ROT_focus_food_crisis
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROT_focus_distribute_military_supplies"
+    }
+}
+
+# 接纳德国援助：
+focus = {
+    id = ROT_focus_accept_german_aid
+    icon = GFX_ROT_focus_accept_german_aid
+    relative_position_id = ROT_focus_food_crisis
+    x = 3
+    y = 2
+    cost = 2.857
+    prerequisite = { # 前置组 2
+        focus = ROT_focus_food_crisis
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROT_focus_accept_german_aid"
+    }
+}
+
+# 粮食危机缓解：
+focus = {
+    id = ROT_focus_alleviation_of_food_crisis
+    icon = GFX_ROT_focus_alleviation_of_food_crisis
+    relative_position_id = ROT_focus_food_crisis
+    x = 0
+    y = 4
+    cost = 1.000
+    prerequisite = { # 前置组 4
+        focus = ROT_focus_distribute_military_supplies
+        focus = ROT_focus_accept_german_aid
+        focus = ROT_focus_temporary_allocation_system
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROT_focus_alleviation_of_food_crisis"
+    }
+}
+

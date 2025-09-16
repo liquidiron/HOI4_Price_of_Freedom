@@ -3,7 +3,7 @@ TST = {
 	color_ui = rgb { 74 147 255 }
 }
 DIL = {
-	color = rgb { 143 163 162 }
+	color = rgb { 170  165  115 }
 	color_ui = rgb { 88 163 162 }
 }
 YWL = {
@@ -11,35 +11,35 @@ YWL = {
 	color_ui = rgb { 192  178  15 }
 }
 FWL = {
-	color = rgb { 255  195  6 }
+	color = rgb { 165  100  80 }
 	color_ui = rgb { 203  195  6  }
 }
 XKJ = {
-	color = rgb { 52  84  79 }
+	color = rgb { 85  100  85 }
 	color_ui = rgb { 52  119  79 }
 }
 QWL = {
-	color = rgb { 248  154 146 }
+	color = rgb { 75  90 75 }
 	color_ui = rgb { 248 162 146 }
 }
 CWL = {
-	color = rgb { 58  119 62 }
+	color = rgb { 80  95 80 }
 	color_ui = rgb { 58  137 62 }
 }
 TBK = {
-	color = rgb { 52  52  60  }
+	color = rgb { 160  140  140 }
 	color_ui = rgb {  12  52  19  }
 }
 JWL = {
-	color = rgb {  82 32 27   }
+	color = rgb {  60 45 40  }
 	color_ui = rgb {   45 21 0   }
 }
 MJJ = {
-	color = rgb {  172  6  255  }
+	color = rgb {  110  100  110 }
 	color_ui = rgb {  172  164  255  }
 }
 XWL = {
-	color = rgb {  135  135  72  }
+	color = rgb { 85  130  120 }
 	color_ui = rgb { 178  135  72  }
 }
 ROT = {
@@ -47,7 +47,7 @@ ROT = {
 	color_ui = rgb { 32  162  83 }
 }
 BKD = {
-	color = rgb { 166  175  118}
+	color = rgb {  100  65  65 }
 	color_ui = rgb { 166  117  118 }
 }
 ROK = {

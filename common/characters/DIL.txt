@@ -1,0 +1,19 @@
+characters = {
+
+
+    DIL_qi_xieyuan = {
+		name = DIL_qi_xieyuan
+		portraits = {
+			civilian = {
+				large = GFX_portrait_DIL_qi_xieyuan
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democratic_1
+			traits = {  }
+			expire = "1975.1.1.1"
+			id = -1
+		}
+		allow_random = no
+	}
+}

@@ -1,4 +1,4 @@
-capital = 608
+﻿capital = 608
 
 create_faction = Republic_of_china
 add_to_faction = JWL
@@ -12,16 +12,19 @@ add_to_faction = FWL
 add_to_faction = DWL
 add_to_faction = CWL
 
+recruit_character = DIL_qi_xieyuan
+
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = authoritarian_democratic
 	last_election = "1951.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	authoritarian_democracy = 55
+	authoritarian_democratic = 55
 	conservatism = 24
 	liberalism = 11
 	progressivism = 10
 }
+

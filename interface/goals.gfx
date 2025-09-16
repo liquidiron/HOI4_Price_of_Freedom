@@ -82,5 +82,24 @@ spriteTypes = {
 		name = "GFX_DIL_Over"
 		texturefile = "gfx/interface/goals/GFX_DIL_Over.dds"
 	}
-
+	SpriteType = { 
+		name = "GFX_ROT_focus_food_crisis"
+		texturefile = "gfx/interface/goals/GFX_ROT_focus_food_crisis.png"
+	}
+	SpriteType = { 
+		name = "GFX_ROT_focus_temporary_allocation_system"
+		texturefile = "gfx/interface/goals/GFX_ROT_focus_temporary_allocation_system.png"
+	}
+	SpriteType = { 
+		name = "GFX_ROT_focus_distribute_military_supplies"
+		texturefile = "gfx/interface/goals/GFX_ROT_focus_distribute_military_supplies.png"
+	}
+	SpriteType = { 
+		name = "GFX_ROT_focus_accept_german_aid"
+		texturefile = "gfx/interface/goals/GFX_ROT_focus_accept_german_aid.png"
+	}
+	SpriteType = { 
+		name = "GFX_ROT_focus_alleviation_of_food_crisis"
+		texturefile = "gfx/interface/goals/GFX_ROT_focus_alleviation_of_food_crisis.png"
+	}
 }

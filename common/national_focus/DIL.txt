@@ -11,14 +11,23 @@
 
 
 focus_tree = {
-    id = DIL
+    id = DIL_focus
     default = no
     continuous_focus_position = { x = 50 y = 1500 }
-    shared_focus = DIL_new_year
+    focus = DIL_new_year
+}
+
+country = {
+    factor = 0
+    
+    modifier = {
+        add = 10
+        tag = DIL
+    }
 }
 
 # 岁值辛卯：
-shared_focus = {
+focus = {
     id = DIL_new_year
     icon = GFX_DIL_new_year
     x = 0
@@ -33,7 +42,7 @@ shared_focus = {
 }
 
 # 民国四十年国会：
-shared_focus = {
+focus = {
     id = DIL_Convene_the_National_Assembly
     icon = GFX_DIL_Convene_the_National_Assembly
     relative_position_id = DIL_new_year
@@ -49,7 +58,7 @@ shared_focus = {
 }
 
 # 敲定山海关1951军演：
-shared_focus = {
+focus = {
     id = DIL_Shanhaiguan_military_exercise
     icon = GFX_DIL_Shanhaiguan_military_exercise
     relative_position_id = DIL_new_year
@@ -65,7 +74,7 @@ shared_focus = {
 }
 
 # 安抚参议院：
-shared_focus = {
+focus = {
     id = DIL_Placate_the_Senate
     icon = GFX_DIL_Placate_the_Senate
     relative_position_id = DIL_new_year
@@ -81,7 +90,7 @@ shared_focus = {
 }
 
 # 与德国大使会面：
-shared_focus = {
+focus = {
     id = DIL_Meet_the_ambassador
     icon = GFX_DIL_Meet_the_ambassador
     relative_position_id = DIL_new_year
@@ -97,7 +106,7 @@ shared_focus = {
 }
 
 # 工业恢复计划：
-shared_focus = {
+focus = {
     id = DIL_Restore_the_industrial_system
     icon = GFX_DIL_Restore_the_industrial_system
     relative_position_id = DIL_new_year
@@ -113,7 +122,7 @@ shared_focus = {
 }
 
 # 邀请德国技师：
-shared_focus = {
+focus = {
     id = DIL_Invite_technicians
     icon = GFX_DIL_Invite_technicians
     relative_position_id = DIL_new_year
@@ -129,7 +138,7 @@ shared_focus = {
 }
 
 # 翻新晚清遗留设施：
-shared_focus = {
+focus = {
     id = DIL_Renovate_industrial_facilities
     icon = GFX_DIL_Renovate_industrial_facilities
     relative_position_id = DIL_new_year
@@ -145,7 +154,7 @@ shared_focus = {
 }
 
 # 勘探华北石油储备：
-shared_focus = {
+focus = {
     id = DIL_Exploration_of_northern_oil
     icon = GFX_DIL_Exploration_of_northern_oil
     relative_position_id = DIL_new_year
@@ -161,7 +170,7 @@ shared_focus = {
 }
 
 # 沿海地区电气化：
-shared_focus = {
+focus = {
     id = DIL_Electrification_of_coastal_areas
     icon = GFX_DIL_Electrification_of_coastal_areas
     relative_position_id = DIL_new_year
@@ -177,7 +186,7 @@ shared_focus = {
 }
 
 # 焕然一新的工业：
-shared_focus = {
+focus = {
     id = DIL_completely_new_industry
     icon = GFX_DIL_completely_new_industry
     relative_position_id = DIL_new_year
@@ -194,7 +203,7 @@ shared_focus = {
 }
 
 # “三年建设”计划：
-shared_focus = {
+focus = {
     id = DIL_Three_year_plan
     icon = GFX_DIL_Three_year_plan
     relative_position_id = DIL_new_year
@@ -210,7 +219,7 @@ shared_focus = {
 }
 
 # 军备重整：
-shared_focus = {
+focus = {
     id = DIL_Arms_reorganization
     icon = GFX_DIL_Arms_reorganization
     relative_position_id = DIL_new_year
@@ -226,7 +235,7 @@ shared_focus = {
 }
 
 # 扩大德国顾问团：
-shared_focus = {
+focus = {
     id = DIL_Invite_German_consultants
     icon = GFX_DIL_Invite_German_consultants
     relative_position_id = DIL_new_year
@@ -242,7 +251,7 @@ shared_focus = {
 }
 
 # 六十师整编计划：
-shared_focus = {
+focus = {
     id = DIL_Military_reorganization_plan
     icon = GFX_DIL_Military_reorganization_plan
     relative_position_id = DIL_new_year
@@ -258,7 +267,7 @@ shared_focus = {
 }
 
 # 欲善其事，先利其器：
-shared_focus = {
+focus = {
     id = DIL_The_tools_are_excellent
     icon = GFX_DIL_The_tools_are_excellent
     relative_position_id = DIL_new_year
@@ -274,7 +283,7 @@ shared_focus = {
 }
 
 # 招收保定军校新生：
-shared_focus = {
+focus = {
     id = DIL_Recruit_freshmen_for_military_academies
     icon = GFX_DIL_Recruit_freshmen_for_military_academies
     relative_position_id = DIL_new_year
@@ -290,7 +299,7 @@ shared_focus = {
 }
 
 # 制霸天空：
-shared_focus = {
+focus = {
     id = DIL_Dominate_the_sky
     icon = GFX_DIL_Dominate_the_sky
     relative_position_id = DIL_new_year
@@ -306,7 +315,7 @@ shared_focus = {
 }
 
 # 现代中国军队之诞：
-shared_focus = {
+focus = {
     id = DIL_The_birth_of_the_modern_army
     icon = GFX_DIL_The_birth_of_the_modern_army
     relative_position_id = DIL_new_year
@@ -324,7 +333,7 @@ shared_focus = {
 }
 
 # 告一段落：
-shared_focus = {
+focus = {
     id = DIL_Over
     icon = GFX_DIL_Over
     relative_position_id = DIL_new_year

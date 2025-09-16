@@ -1,1 +1,29 @@
-capital = 716
+﻿capital = 716
+
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1951.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	despotism = 14
+	authoritarian_democracy = 63
+	liberalism = 9
+	progressivism = 4
+    conservatism = 10
+}
+
+if = {
+	limit = {
+		is_in_faction_with = DIL
+	}
+	set_cosmetic_tag = republic_of_china_member
+}
+if = {
+	limit = {
+		NOT = { is_in_faction_with = DIL }
+	}
+	drop_cosmetic_tag = yes
+}

@@ -1,1 +1,18 @@
-capital = 524
+﻿capital = 524
+
+set_politics = {
+	ruling_party = authoritarian_democratic
+	last_election = "1951.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character = ROT_emergency_committee
+
+set_popularities = {
+	progressivism = 33
+	liberalism = 24
+    conservatism = 23
+	authoritarian_democratic = 16
+	progressivism = 4
+}

@@ -1,1 +1,1 @@
-capital = 525
+﻿capital = 525

@@ -1,0 +1,12 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_portrait_DIL_qi_xieyuan"
+		texturefile = "gfx/leaders/DIL/GFX_portrait_DIL_qi_xieyuan.dds"
+	}
+
+    spriteType = {
+		name = "GFX_portrait_ROT_emergency_committee"
+		texturefile = "gfx/leaders/ROT/GFX_portrait_ROT_emergency_committee.dds"
+	}
+}

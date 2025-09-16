@@ -1,0 +1,4 @@
+republic_of_china_member = {
+    color = rgb {170  165  115}
+	color_ui = rgb { 88 163 162 }
+}

@@ -1,1 +1,27 @@
-capital = 3203
+﻿capital = 3203
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1951.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	despotism = 74
+	authoritarian_democracy = 16
+    conservatism = 10
+}
+
+if = {
+	limit = {
+		is_in_faction_with = DIL
+	}
+	set_cosmetic_tag = republic_of_china_member
+}
+if = {
+	limit = {
+		NOT = { is_in_faction_with = DIL }
+	}
+	drop_cosmetic_tag = yes
+}
