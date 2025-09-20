@@ -7,6 +7,6 @@ spriteTypes = {
 
     spriteType = {
 		name = "GFX_portrait_ROT_emergency_committee"
-		texturefile = "gfx/leaders/ROT/GFX_portrait_ROT_emergency_committee.dds"
+		texturefile = "gfx/leaders/ROT/GFX_portrait_ROT_emergency_committee .dds"
 	}
 }
