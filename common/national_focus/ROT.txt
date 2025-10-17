@@ -14,8 +14,9 @@ focus_tree = {
     id = ROT
     default = no
     focus = ROT_focus_food_crisis
-    continuous_focus_position = { x = 50 y = 1500 }
+    
 }
+continuous_focus_position = { x = 50 y = 1500 }
 country = {
     factor = 0
     
@@ -33,7 +34,11 @@ focus = {
     y = 0
     cost = 0.143
     completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus ROT_focus_food_crisis"
+        country_event = {
+            id = taiwan.1
+            hours = 1
+        }
+        
     }
 }
 

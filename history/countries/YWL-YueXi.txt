@@ -1,19 +1,13 @@
 ﻿capital = 592
 
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = authoritarian_democratic
 	last_election = "1951.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	authoritarian_democracy = 62
-	conservatism = 24
-	liberalism = 6
-	progressivism = 5
-    socialism = 3
-}
+
 
 if = {
 	limit = {
@@ -27,3 +21,11 @@ if = {
 	}
 	drop_cosmetic_tag = yes
 }
+set_popularities = {
+	authoritarian_democratic = 62
+	conservatism = 24
+	liberalism = 6
+	progressivism = 5
+    socialism = 3
+}
+#fuck_paradox

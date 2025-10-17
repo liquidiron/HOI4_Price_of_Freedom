@@ -9,7 +9,7 @@ state= {
 	provinces = { 13026 }
 	
 	history = {
-		owner = JAP
+		owner = JPE
 	
 		add_core_of = GUM
 	

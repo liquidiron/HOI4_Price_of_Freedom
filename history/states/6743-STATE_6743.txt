@@ -9,9 +9,9 @@ state= {
 	provinces = { 10124 }
 	
 	history = {
-		owner = JAP
+		owner = RKK
 	
-		add_core_of = JAP
+		add_core_of = RKK
 	
 		buildings = {
 			infrastructure = 2

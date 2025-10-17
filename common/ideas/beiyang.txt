@@ -3,7 +3,7 @@ ideas = {
 	country = {
 
 		DIL_shadow_of_rev = {
-			picture = generic_production_bonus
+			picture = GFX_ideas_DIL_shadow_of_rev
 			allowed = {
 				original_tag = DIL
 				always = no

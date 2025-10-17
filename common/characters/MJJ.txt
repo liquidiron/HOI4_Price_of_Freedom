@@ -1,0 +1,19 @@
+characters = {
+
+
+    MJJ_ma_bufang = {
+		name = MJJ_ma_bufang
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MJJ_ma_bufang
+			}
+		}
+		country_leader = {
+			ideology = patriarchy
+			traits = {  }
+			expire = "1975.1.1.1"
+			id = -1
+		}
+		allow_random = no
+	}
+}

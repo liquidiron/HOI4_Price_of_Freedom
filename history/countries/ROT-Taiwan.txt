@@ -1,13 +1,15 @@
 ﻿capital = 524
 
 set_politics = {
-	ruling_party = authoritarian_democratic
+	ruling_party = liberalism
 	last_election = "1951.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+recruit_character = ROT_li_weiguang
 recruit_character = ROT_emergency_committee
+
 
 set_popularities = {
 	progressivism = 33
@@ -16,3 +18,4 @@ set_popularities = {
 	authoritarian_democratic = 16
 	progressivism = 4
 }
+#fuck_paradox

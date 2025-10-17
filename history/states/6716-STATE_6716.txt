@@ -9,7 +9,7 @@ state= {
 	provinces = { 1177 }
 	
 	history = {
-		owner = JAP
+		owner = JPE
 	
 		add_core_of = KOR
 	

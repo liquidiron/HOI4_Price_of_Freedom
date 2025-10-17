@@ -1,12 +1,22 @@
 spriteTypes = {
 
-    spriteType = {
+    SpriteType = {
 		name = "GFX_portrait_DIL_qi_xieyuan"
 		texturefile = "gfx/leaders/DIL/GFX_portrait_DIL_qi_xieyuan.dds"
 	}
 
-    spriteType = {
+    SpriteType = {
 		name = "GFX_portrait_ROT_emergency_committee"
-		texturefile = "gfx/leaders/ROT/GFX_portrait_ROT_emergency_committee .dds"
+		texturefile = "gfx/leaders/ROT/GFX_portrait_ROT_emergency_committee.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_ROT_li_weiguang"
+		texturefile = "gfx/leaders/ROT/GFX_portrait_ROT_li_weiguang.png"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_MJJ_ma_bufang"
+		texturefile = "gfx/leaders/MJJ/GFX_portrait_MJJ_ma_bufang.dds"
 	}
 }

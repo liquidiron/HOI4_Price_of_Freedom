@@ -58,6 +58,10 @@ ideologies = {
     liberalism = {
 
         types = {
+			taiwan_sanminism = {
+
+			}
+			
         }
         dynamic_faction_names = {
 			"FACTION_NAME_LIBERALISM_1"
@@ -374,6 +378,10 @@ ideologies = {
 	despotism = {
 
         types = {
+			patriarchy = {
+				
+			}
+
         }
         dynamic_faction_names = {
 			"FACTION_NAME_DESPOTISM_1"
@@ -426,7 +434,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
 	}
 
-	state_socialism = {
+	national_socialism = {
 
         types = {
         }

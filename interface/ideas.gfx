@@ -1,0 +1,14 @@
+spriteTypes = {	
+    
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 18
+	}
+    
+    SpriteType = {
+		name = "GFX_ideas_DIL_shadow_of_rev"
+		texturefile = "gfx/interface/ideas/GFX_ideas_DIL_shadow_of_rev.png"
+	}
+
+}

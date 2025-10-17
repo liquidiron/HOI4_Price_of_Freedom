@@ -7,11 +7,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_popularities = {
-	despotism = 74
-	authoritarian_democracy = 16
-    conservatism = 10
-}
+recruit_character = MJJ_ma_bufang
 
 if = {
 	limit = {
@@ -25,3 +21,9 @@ if = {
 	}
 	drop_cosmetic_tag = yes
 }
+set_popularities = {
+	despotism = 74
+	authoritarian_democratic = 16
+    conservatism = 10
+}
+#fuck_paradox

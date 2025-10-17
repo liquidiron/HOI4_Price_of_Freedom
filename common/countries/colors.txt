@@ -58,3 +58,15 @@ GEA = {
 	color = rgb { 46  54 55 }
 	color_ui = rgb {  0 0 55  }
 }
+JPE = {
+	color = rgb { 245 139 127 }
+	color_ui = rgb {  245 100 127 }
+}
+RKK = {
+	color = rgb {119  91  166}
+	color_ui = rgb { 119  150  166}
+}
+HAA = {
+	color = rgb { 17  17  17 }
+	color_ui = rgb { 170  170  170 }
+}

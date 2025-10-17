@@ -1,18 +1,5 @@
 ﻿capital = 617
 
-set_politics = {
-	ruling_party = despotism
-	last_election = "1951.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-	despotism = 70
-	authoritarian_democracy = 9
-	socialism = 13
-    conservatism = 8
-}
 
 if = {
 	limit = {
@@ -26,3 +13,16 @@ if = {
 	}
 	drop_cosmetic_tag = yes
 }
+set_politics = {
+	ruling_party = despotism
+	last_election = "1951.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	despotism = 70
+	authoritarian_democratic = 9
+	socialism = 13
+    conservatism = 8
+}
+#fuck_paradox

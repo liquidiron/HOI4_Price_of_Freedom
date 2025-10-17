@@ -9,7 +9,7 @@ state= {
 	provinces = { 1515 }
 	
 	history = {
-		owner = JAP
+		owner = JPE
 	
 	
 		buildings = {

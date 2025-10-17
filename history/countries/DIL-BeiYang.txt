@@ -27,4 +27,7 @@ set_popularities = {
 	liberalism = 11
 	progressivism = 10
 }
-
+add_ideas = {
+	DIL_shadow_of_rev
+}
+#fuck_paradox

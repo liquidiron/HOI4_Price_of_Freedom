@@ -15,4 +15,19 @@ characters = {
 			id = -1
 		}
 	}
+
+	ROT_li_weiguang = {
+		name = ROT_li_weiguang
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ROT_li_weiguang
+			}
+		}
+		country_leader = {
+			ideology = taiwan_sanminism
+			traits = {  }
+			expire = "1975.1.1.1"
+			id = -1
+		}
+	}
 }

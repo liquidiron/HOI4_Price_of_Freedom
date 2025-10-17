@@ -7,12 +7,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_popularities = {
-	despotism = 70
-	authoritarian_democracy = 11
-	liberalism = 10
-    conservatism = 9
-}
+
 
 if = {
 	limit = {
@@ -26,3 +21,10 @@ if = {
 	}
 	drop_cosmetic_tag = yes
 }
+set_popularities = {
+	despotism = 70
+	authoritarian_democratic = 11
+	liberalism = 10
+    conservatism = 9
+}
+#fuck_paradox
